@@ -1,0 +1,122 @@
+{% extends "base.html" %}
+
+{% block title %}EduChat - Your AI Learning Assistant{% endblock %}
+
+{% block content %}
+<!-- Hero Section -->
+<div class="row align-items-center py-5">
+    <div class="col-md-6">
+        <h1 class="display-4 fw-bold">Learn Smarter with EduChat</h1>
+        <p class="lead my-4">Your personal AI learning assistant that helps you understand your study materials. Upload documents and get instant, accurate answers to your questions.</p>
+        
+        {% if current_user.is_authenticated %}
+            <a href="{{ url_for('chat') }}" class="btn btn-primary btn-lg">Start Chatting</a>
+        {% else %}
+            <div class="d-grid gap-2 d-md-flex">
+                <a href="{{ url_for('signup') }}" class="btn btn-primary btn-lg me-md-2">Sign Up</a>
+                <a href="{{ url_for('login') }}" class="btn btn-outline-secondary btn-lg">Login</a>
+            </div>
+        {% endif %}
+    </div>
+    <div class="col-md-6 text-center">
+        <img src="{{ url_for('static', filename='img/ai-assistant.png') }}" alt="AI Assistant" class="img-fluid" style="max-height: 400px;">
+    </div>
+</div>
+
+<!-- Features Section -->
+<div class="row py-5 mt-4">
+    <div class="col-12 text-center mb-4">
+        <h2 class="fw-bold">Key Features</h2>
+        <p class="lead text-muted">Everything you need to enhance your learning experience</p>
+    </div>
+    
+    <div class="col-md-4 mb-4">
+        <div class="card h-100 shadow-sm">
+            <div class="card-body text-center">
+                <i class="fas fa-brain fa-3x text-primary mb-3"></i>
+                <h3 class="card-title">AI-Powered Learning</h3>
+                <p class="card-text">Get intelligent responses to your questions using advanced language models.</p>
+            </div>
+        </div>
+    </div>
+    
+    <div class="col-md-4 mb-4">
+        <div class="card h-100 shadow-sm">
+            <div class="card-body text-center">
+                <i class="fas fa-file-pdf fa-3x text-primary mb-3"></i>
+                <h3 class="card-title">Document Processing</h3>
+                <p class="card-text">Upload your PDFs and get answers specific to your study materials.</p>
+            </div>
+        </div>
+    </div>
+    
+    <div class="col-md-4 mb-4">
+        <div class="card h-100 shadow-sm">
+            <div class="card-body text-center">
+                <i class="fas fa-laptop-code fa-3x text-primary mb-3"></i>
+                <h3 class="card-title">Offline Capability</h3>
+                <p class="card-text">All processing happens on your machine. No internet connection needed!</p>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- How It Works Section -->
+<div class="row py-5 bg-light rounded-3 mt-4">
+    <div class="col-12 text-center mb-4">
+        <h2 class="fw-bold">How It Works</h2>
+    </div>
+    
+    <div class="col-md-3 mb-4">
+        <div class="text-center">
+            <div class="bg-primary rounded-circle d-inline-flex justify-content-center align-items-center mb-3" style="width: 60px; height: 60px;">
+                <span class="text-white fw-bold">1</span>
+            </div>
+            <h5>Sign Up</h5>
+            <p class="text-muted">Create your free account</p>
+        </div>
+    </div>
+    
+    <div class="col-md-3 mb-4">
+        <div class="text-center">
+            <div class="bg-primary rounded-circle d-inline-flex justify-content-center align-items-center mb-3" style="width: 60px; height: 60px;">
+                <span class="text-white fw-bold">2</span>
+            </div>
+            <h5>Upload Documents</h5>
+            <p class="text-muted">Add your study materials</p>
+        </div>
+    </div>
+    
+    <div class="col-md-3 mb-4">
+        <div class="text-center">
+            <div class="bg-primary rounded-circle d-inline-flex justify-content-center align-items-center mb-3" style="width: 60px; height: 60px;">
+                <span class="text-white fw-bold">3</span>
+            </div>
+            <h5>Ask Questions</h5>
+            <p class="text-muted">Type your queries</p>
+        </div>
+    </div>
+    
+    <div class="col-md-3 mb-4">
+        <div class="text-center">
+            <div class="bg-primary rounded-circle d-inline-flex justify-content-center align-items-center mb-3" style="width: 60px; height: 60px;">
+                <span class="text-white fw-bold">4</span>
+            </div>
+            <h5>Get Smart Answers</h5>
+            <p class="text-muted">Learn from AI responses</p>
+        </div>
+    </div>
+</div>
+
+<!-- CTA Section -->
+<div class="row text-center py-5 mt-4">
+    <div class="col-12">
+        <h2 class="fw-bold mb-4">Ready to enhance your learning?</h2>
+        {% if current_user.is_authenticated %}
+            <a href="{{ url_for('chat') }}" class="btn btn-primary btn-lg px-5">Start Chatting Now</a>
+        {% else %}
+            <a href="{{ url_for('signup') }}" class="btn btn-primary btn-lg px-5">Get Started for Free</a>
+        {% endif %}
+    </div>
+</div>
+{% endblock %}

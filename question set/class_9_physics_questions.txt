@@ -1,0 +1,56 @@
+
+Chapter 1: Physical Quantities and Their Measurements
+1. Explain the difference between fundamental and derived quantities with examples.
+2. Why are measurement and units important in physics?
+
+Chapter 2: Motion
+3. What is the difference between uniform and non-uniform motion?
+4. Explain with an example how acceleration is related to velocity and time.
+
+Chapter 3: Force
+5. State Newton’s three laws of motion with real-life examples.
+6. How does friction affect motion? Explain with advantages and disadvantages.
+
+Chapter 4: Work, Power and Energy
+7. What is the difference between work and energy?
+8. How is kinetic energy related to the mass and velocity of an object?
+
+Chapter 5: State of Matter and Pressure
+9. How does pressure vary with depth in a liquid?
+10. Explain how a straw works based on the principles of pressure.
+
+Chapter 6: Effect of Heat on Matter
+11. Describe the concept of thermal expansion and give practical examples.
+12. Why does a bimetallic strip bend when heated?
+
+Chapter 7: Waves and Sound
+13. What are the main differences between longitudinal and transverse waves?
+14. Explain how sound propagates through different mediums.
+
+Chapter 8: Reflection of Light
+15. State and explain the laws of reflection.
+16. How are images formed in a plane mirror? Describe their characteristics.
+
+Chapter 9: Refraction of Light
+17. Why does a pencil appear bent when placed in a glass of water?
+18. Explain the working of lenses using refraction.
+
+Chapter 10: Static Electricity
+19. What is electrostatic induction? Give an example.
+20. Describe the structure and function of a simple electroscope.
+
+Chapter 11: Current Electricity
+21. Explain Ohm’s law and describe how resistance affects current flow.
+22. Differentiate between series and parallel circuits with advantages.
+
+Chapter 12: Magnetic Effects of Current
+23. What is electromagnetic induction? Explain its significance.
+24. Describe how a simple electric motor works.
+
+Chapter 13: Modern Physics and Electronics
+25. What is radioactivity and how is it useful in modern science?
+26. Explain the differences between analog and digital signals.
+
+Chapter 14: Physics to Save Life
+27. How is physics used in diagnosing diseases in modern medical science?
+28. Describe the contribution of Jagadish Chandra Bose in biophysics.

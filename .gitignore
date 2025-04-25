@@ -37,6 +37,11 @@ models/*.gguf
 vector_db_data/
 !models/README.md
 
+# Reports and documents
+report.tex
+report.doc
+report.pdf
+
 # Mac/OSX
 .DS_Store
 

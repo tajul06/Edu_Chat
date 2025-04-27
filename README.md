@@ -78,7 +78,7 @@ python nltksetup.py
 
 Download the language model file and place it in the `models` directory:
 - Recommended: `llama-3.1-8b-instruct-q4_k_m.gguf` (4.7GB)
-- Download from [TheBloke/Llama-3.1-8B-Instruct-GGUF](https://huggingface.co/TheBloke/Llama-3.1-8B-Instruct-GGUF)
+- Download from [modularai/Llama-3.1-8B-Instruct-GGUF](https://huggingface.co/modularai/Llama-3.1-8B-Instruct-GGUF)
 
 ## Usage
 

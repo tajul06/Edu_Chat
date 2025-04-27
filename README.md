@@ -51,7 +51,7 @@ EduChat consists of several integrated components:
 1. **Clone the repository**
 
 ```bash
-git clone https://github.com/yourusername/educhat.git
+git clone https://github.com/tajul06/Edu_Chat.git
 cd educhat
 ```
 
